@@ -1,5 +1,5 @@
 # ADAST
-### Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification
+### [Adversarial Domain Adaptation with Self-Training for EEG-based Sleep Stage Classification](https://arxiv.org/pdf/2107.04470.pdf)
 #### *by: Emadeldeen Eldele, Mohamed Ragab, Zhenghua Chen, Min Wu, Chee-Keong Kwoh, Xiaoli Li, and Cuntai Guan* 
 
 This publication is under review in IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE).
