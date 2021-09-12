@@ -45,6 +45,7 @@ def val_self_training(model,valid_dl,  device, src_id, trg_id, round_idx, args):
     data_save["samples"] = all_data
     data_save["labels"] = torch.LongTensor(torch.from_numpy(all_pseudo_labels).long())
     file_name = f"pseudo_train_{src_id}_to_{trg_id}_round_{round_idx}.pt"
+    os.makedirs(os.path.join(args.home_path ,"data"), exist_ok =True)
     torch.save(data_save, os.path.join(args.home_path ,"data", file_name))
 
 
