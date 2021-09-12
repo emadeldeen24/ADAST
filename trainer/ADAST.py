@@ -19,8 +19,8 @@ def cross_domain_train(src_train_dl, trg_train_dl, trg_valid_dl,
 
     feature_discriminator = Discriminator(model_configs).to(device)
 
-    src_att = Self_Attn(128).to(device)
-    trg_att = Self_Attn(128).to(device)
+    src_att = Self_Attn(model_configs.final_out_channels).to(device)
+    trg_att = Self_Attn(model_configs.final_out_channels).to(device)
 
     # loss functions
     disc_criterion = nn.BCEWithLogitsLoss().to(device)
