@@ -28,7 +28,7 @@ parser.add_argument('--da_method', default='ADAST', type=str,
 parser.add_argument('--num_runs', default=1, type=int,
                     help='Number of consecutive run with different seeds')
 
-parser.add_argument('--device', default='cuda:3', type=str,
+parser.add_argument('--device', default='cuda:0', type=str,
                     help='cpu or cuda')
 
 home_dir = os.getcwd()
