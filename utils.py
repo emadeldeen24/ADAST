@@ -167,7 +167,7 @@ def _plot_umap(model, src_dl, trg_dl, device, save_dir, model_type,
     src_embedding = src_model_reducer.fit_transform(src_features.detach().cpu().numpy())
     
     trg_model_reducer = umap.UMAP(n_neighbors=3, min_dist=0.3, metric='correlation', random_state=42)
-    trg_embedding = src_model_reducer.fit_transform(trg_features.detach().cpu().numpy())
+    trg_embedding = trg_model_reducer.fit_transform(trg_features.detach().cpu().numpy())
     
     print("Plotting UMAP for " + model_type + "...")
     plt.figure(figsize=(16, 10))
