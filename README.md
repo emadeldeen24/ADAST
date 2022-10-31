@@ -1,4 +1,4 @@
-### [ADAST: Attentive Cross-domain EEG-based Sleep Staging Framework with Iterative Self-Training](https://arxiv.org/pdf/2107.04470.pdf)
+### [ADAST: Attentive Cross-domain EEG-based Sleep Staging Framework with Iterative Self-Training](https://arxiv.org/pdf/2107.04470.pdf) [[Cite](#citation)]
 #### *by: Emadeldeen Eldele, Mohamed Ragab, Zhenghua Chen, Min Wu, Chee-Keong Kwoh, Xiaoli Li, and Cuntai Guan* 
 #### This work has been accepted for publication in the [IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)](https://ieeexplore.ieee.org/document/9854170).    
 
