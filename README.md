@@ -2,8 +2,9 @@
 #### *by: Emadeldeen Eldele, Mohamed Ragab, Zhenghua Chen, Min Wu, Chee-Keong Kwoh, Xiaoli Li, and Cuntai Guan* 
 #### This work has been accepted for publication in the [IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)](https://ieeexplore.ieee.org/document/9854170).    
 
-<img src="misc/adast2.PNG"  style="width: 70%; height: 70%"/>
-
+<p align="center">
+<img src="misc/adast2.PNG" width="80%" class="center">
+</p>
 
 
 ## Requirmenets:
@@ -46,11 +47,11 @@ IF you found this work useful for you, please consider citing it.
   author={Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee-Keong and Li, Xiaoli and Guan, Cuntai},
   journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
   title={ADAST: Attentive Cross-Domain EEG-Based Sleep Staging Framework With Iterative Self-Training}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={1-12},
-  doi={10.1109/TETCI.2022.3189695}
+  year={2023},
+  volume={7},
+  number={1},
+  pages={210-221},
+  doi={10.1109/TETCI.2022.3189695
 }
 ```
 
